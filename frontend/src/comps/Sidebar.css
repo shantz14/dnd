@@ -1,0 +1,15 @@
+.sidebar {
+    background-color: lightgrey;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.leftbar {
+    grid-area: leftbar;
+}
+
+.rightbar {
+    grid-area: rightbar;
+}

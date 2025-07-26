@@ -1,0 +1,9 @@
+.navbar {
+    grid-area: navbar;
+    background-color: darkblue;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

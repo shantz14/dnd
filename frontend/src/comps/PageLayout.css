@@ -1,0 +1,16 @@
+.pageLayout {
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: 100px 700px;
+    height: 100%;
+    grid-template-areas: 
+        "navbar navbar navbar"
+        "leftbar pageContents rightbar";
+}
+
+.pageContents {
+    grid-area: pageContents;
+    background-color: lightcyan;
+    width: auto;
+    height: auto;
+}
