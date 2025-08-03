@@ -1,9 +1,23 @@
 .navbar {
     grid-area: navbar;
-    background-color: darkblue;
-    color: white;
+    background-color: var(--secondary-color);
 
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+.navbarItem {
+    background-color: var(--highlight-color);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navbarItem a {
+    color: white;
 }

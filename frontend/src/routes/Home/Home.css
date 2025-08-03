@@ -1,3 +1,17 @@
-#homelayout {
-    
+#homeLayout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.homeCard {
+    background-color: var(--secondary-color);
+    min-width: 350px; 
+    min-height: 300px;
+    max-width: 450px; 
+    max-height: 400px;
+    margin: 10px;
+    border-radius: 25px;
 }

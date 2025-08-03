@@ -1,4 +1,4 @@
-module wiki
+module dnd
 
 go 1.24.5
 

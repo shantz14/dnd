@@ -1,9 +1,10 @@
 .sidebar {
-    background-color: lightgrey;
+    background-color: var(--primary-color);
     
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding: 5px;
 }
 
 .leftbar {

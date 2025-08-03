@@ -4,15 +4,34 @@ function Navbar() {
 
     return (
         <div className="navbar">
-            <p>Navbar item</p>
-            <p>Navbar item</p>
-            <p>Navbar item</p>
-            <p>Navbar item</p>
-            <p>Navbar item</p>
-            <p>Navbar item</p>
-            <p>Navbar item</p>
+            <NavbarItem>
+                <a>Navbar item</a>
+            </NavbarItem> 
+            <NavbarItem>
+                <a>Navbar item</a>
+            </NavbarItem> 
+            <NavbarItem>
+                <a>Navbar item</a>
+            </NavbarItem> 
+            <NavbarItem>
+                <a>Navbar item</a>
+            </NavbarItem> 
+            <NavbarItem>
+                <a>Navbar item</a>
+            </NavbarItem> 
+            <NavbarItem>
+                <a>Navbar item</a>
+            </NavbarItem> 
         </div>
     );
 }
 
 export default Navbar;
+
+function NavbarItem(props) {
+    return (
+        <div className="navbarItem">
+            {props.children}
+        </div>
+    );
+}

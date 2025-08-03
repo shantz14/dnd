@@ -1,10 +1,11 @@
-
+import './Home.css';
 
 export function WikiCard() {
 
     return (
         <div className="homeCard">
-            <p>wiki card</p>
+            <h2>wiki card</h2>
+            <a href='/wiki'>Wiki Home</a>
         </div>
     );
 }

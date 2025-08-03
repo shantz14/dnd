@@ -1,8 +1,8 @@
 .pageLayout {
     display: grid;
-    grid-template-columns: 100px auto 100px;
-    grid-template-rows: 100px 700px;
-    height: 100%;
+    grid-template-columns: 150px auto 150px;
+    grid-template-rows: 70px auto;
+    height: 100vh;
     grid-template-areas: 
         "navbar navbar navbar"
         "leftbar pageContents rightbar";
@@ -10,7 +10,14 @@
 
 .pageContents {
     grid-area: pageContents;
-    background-color: lightcyan;
+    background-color: var(--primary-color);
     width: auto;
     height: auto;
 }
+/*
+--floral-white: #fffcf2ff;
+--timberwolf: #ccc5b9ff;
+--black-olive: #403d39ff;
+--eerie-black: #252422ff;
+--flame: #eb5e28ff;
+*/
